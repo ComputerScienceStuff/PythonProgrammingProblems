@@ -12,3 +12,4 @@ with open("05-Snider.txt", 'w') as f:
     f.write(test)
     
 #it slices the last letter but doesn't rejoin it
+    ###
