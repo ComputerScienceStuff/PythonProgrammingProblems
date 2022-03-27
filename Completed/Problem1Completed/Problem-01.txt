@@ -1,0 +1,32 @@
+01 - Getting Started
+
+
+The purpose of this problem is to get you started.  It just contains the basics: read a text file and write a text file.
+
+All of the contest programs need to write a text file.  The judging software reads the text files to judge an answer right or wrong.  The filename must contain the problem number and your team name name, like 01-TeamName.txt.
+
+The answer file should contain only the answer.  Don't submit the programs you used, just submit the answer.  
+
+Most problems also require reading an input text file, and doing something with that input.  The input file is named Input-01.txt for problem 1.
+
+
+Input:
+For problem 1, the input consists of a single integer.
+
+Output:
+Write a program that says 'hello' n times on separate lines, where "n" is the number in the input file.
+
+Don't put in any quotes or capital letter, just the word hello on each line. The judging software is case sensitive, just so you know.
+
+Write your answers in a file named 01-TeamName.txt, one answer per line.
+
+
+
+Example:
+3
+
+
+Answer:
+hello
+hello
+hello

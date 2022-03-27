@@ -1,0 +1,34 @@
+15 - Word Isograms
+
+An isogram is a word that has no duplicate letters, regardless of case. 
+An empty string is not an isogram. 
+
+Input:
+The input consists of words from the dictionary. 
+
+Output:
+Output consists of the line number for each word (starting with 0).
+Then a space for seperation.
+Finally a determination if the word is an isogram (true, it is an isogram, false if not).
+
+Write your answers in a file named 15-TeamName.txt, one answer per line.
+
+Example:
+
+Since
+Sense
+Duplicate
+Isogram
+Duplicated
+Affair
+Fair
+
+Answers:
+
+0 true
+1 false
+2 true
+3 true
+4 false
+5 false
+6 true

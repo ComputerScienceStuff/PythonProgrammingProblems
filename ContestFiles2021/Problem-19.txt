@@ -1,0 +1,40 @@
+19 - Symmetrical Numbers
+
+A symmetrical number is the same as its reverse (it is the same number if read from right to left as it is if read from left to right).
+Single digits (or no digits) are not symmetrical. 
+Lines with non-numeric data are not symmetrical.
+
+Input:
+For this problem, the input consists of a line of text. 
+
+Output:
+Determine if that text represents a symmetrical number.
+Output one line for each input number with:
+1) The line number starting with 0
+2) A space seperator
+3) The result of the symmetry validation test (true, if it is symmetrical, false if not).
+Again, remember case sensitivity.
+
+Write your answers in a file named 19-TeamName.txt, one answer per line.
+
+Example:
+
+1234
+1221
+34543
+434343
+1
+554434455
+98089
+A33A
+
+Answers:
+
+0 false
+1 true
+2 true
+3 false
+4 false
+5 true
+6 true
+7 false

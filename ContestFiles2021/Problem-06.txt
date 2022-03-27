@@ -1,0 +1,28 @@
+06 - Conventional Capitalization
+
+Input:
+The input consists of a word from the dictionary.  
+Random letters in the word are capitalized.
+
+Output:
+Make sure the first letter in the word is capitalized.  
+All remaining letters must be lowercase. 
+
+Write your answers in a file named 06-TeamName.txt, one answer per line.
+
+
+Example:
+Run
+spoT
+run
+sEE
+jAne
+rUn
+
+Answer:
+Run
+Spot
+Run
+See
+Jane
+Run

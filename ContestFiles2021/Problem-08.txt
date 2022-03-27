@@ -1,0 +1,42 @@
+08 - Indexed Capitalization
+
+Input:
+The input consists of a word from the dictionary.  
+Random letters in the word are capitalized.
+
+Output:
+Make sure one specific letter is capitalized.  
+All the other letters stay as is (retain original case as read in from input file).
+
+The letter to capitalize is determined by the first letter in the word.
+If the first letter is "A" or "a", capitalize the first letter.
+If the first letter is "B" or "b", capitalize the second letter.
+If the first letter is "E" or "e", capitalize the fifth letter.
+....
+If the first letter is "Z" or "z", capitalize the twenty-sixth letter.
+
+Follow the same pattern for all the letters in the alphabet.
+
+If the word is too short for the index, don't change anything.
+
+
+Write your answers in a file named 08-TeamName.txt, one answer per line.
+
+
+Example:
+Run
+spoT
+run
+appLe
+beE
+Cat
+dog
+
+Answer:
+Run
+spoT
+run
+AppLe
+bEE
+CaT
+dog

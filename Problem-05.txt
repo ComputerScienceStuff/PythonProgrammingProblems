@@ -1,0 +1,28 @@
+05 - Trailing Capitalization
+
+Input:
+The input consists of a word from the dictionary.  
+Random letters in the word are capitalized.
+
+Output:
+Make sure the last letter in the word is capitalized.  
+Other than the last letter, all remaining letters must retain the case as read in from the input file.
+
+Write your answers in a file named 05-TeamName.txt, one answer per line.
+
+
+Example:
+Run
+spoT
+run
+sEE
+jAne
+rUn
+
+Answer:
+RuN
+spoT
+ruN
+sEE
+jAnE
+rUN

@@ -1,0 +1,55 @@
+09 - Capitalization Graph
+
+Input:
+The input consists of a word from the dictionary.  
+Random letters in the word are capitalized.
+
+Output:
+Output is a table with two columns. 
+The first column is the range of possible caps in a word. The range is fixed at 0 to 15.
+The second column shows how many words with that number of caps appears in the word list.
+
+So, once per line, print out an incremental range of 0 to 15, then a space, finally followed by one asterisk for each word in the list that has that number of capitals letters.
+
+Right align the numbers so the graph lines up (add a leading blank to single digits of 0 to 9).
+
+Write your answers in a file named 09-TeamName.txt, one answer per line.
+
+Example:
+In the example list below:
+zero caps occur 1 time 
+one cap occurs 4 times (so range 1 has 4 asterisks) 
+two caps occur 1 time 
+three caps appear 1 time 
+All the other counts occur 0 times.
+
+Write your answers in a file named 09-TeamName.txt, one answer per line.
+
+
+Example:
+Run
+spoT
+run
+appLe
+beE
+CaT
+DOG
+
+Answer:
+
+ 0 *
+ 1 ****
+ 2 *
+ 3 *
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15

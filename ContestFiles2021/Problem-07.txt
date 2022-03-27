@@ -1,0 +1,27 @@
+07 - Inverse Capitalization
+
+Input:
+The input consists of a word from the dictionary.  
+Random letters in the word are capitalized.
+
+Output:
+Make all the uppercase letters lowercase and make all the lowercase letters uppercase. 
+
+Write your answers in a file named 07-TeamName.txt, one answer per line.
+
+
+Example:
+Run
+spoT
+run
+sEE
+jAne
+rUn
+
+Answer:
+rUN
+SPOt
+RUN
+See
+JaNE
+RuN

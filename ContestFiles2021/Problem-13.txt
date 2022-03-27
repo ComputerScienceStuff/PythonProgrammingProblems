@@ -1,0 +1,56 @@
+13 - Grepish Not
+
+Input:
+The input consists of 3 parts.
+1) First part are lines of a data file with 3 fields: Car Color, Car Make and Car ID
+2) Second part is an asterisk (*) to show end of the data section
+3) Third part are lines of the data search criteria
+
+Output:
+For each search criteria line, find all the lines that meet the specific criteria and print each Car ID number.
+The Car IDs for each search should be listed in numeric ascending order.
+Criteria to search for can be either for Color or Make.
+Criteria will have a not condition (for either Color or Make).
+Criteria may return 0 or many hits. Print each matching Car ID number on a separate line in top down order.
+Indicate the end of each search by printing a single * on a line.  
+If no result is found just print a single *.
+
+Write your answers in a file named 13-TeamName.txt, one answer per line.
+
+
+Example:
+Red, Ford, 12345
+Red, Tesla, 23456
+Blue, Dodge, 34567
+Blue, Ford, 45678
+Green, Ford, 56789
+*
+Green not Ford
+Ford not Green
+Blue not Ford
+Blue not Dodge
+Red not Tesla
+Red not Ford
+Ford not Blue
+Ford not Yellow
+
+Answer:
+*
+12345
+45678
+*
+34567
+*
+45678
+*
+12345
+*
+23456
+*
+12345
+56789
+*
+12345
+45678
+56789
+*

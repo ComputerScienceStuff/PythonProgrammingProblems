@@ -1,0 +1,38 @@
+10 - Vote Tabulation
+
+Input:
+The input consists of a line with seven digits, 1 or 0, with a space in between.
+The seven digits represent seven votes. 1 means pass and 0 means fail.
+4 or more votes of 1 are required to pass the line,  otherwise the line fails.
+
+Output:
+Output is a single word per line, Pass or Fail.  
+Write Pass if an input line has 4 or more pass votes, write Fail if not.
+Make sure the P or F is capitalized and the rest of the word is lowercase.
+
+Write your answers in a file named 10-TeamName.txt, one answer per line.
+
+
+Example:
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1
+0 0 0 0 0 1 1
+0 0 0 0 1 1 1
+0 0 0 1 1 1 1
+0 0 1 1 1 1 1
+0 1 1 1 1 1 1
+1 1 1 1 1 1 1
+0 1 0 1 0 1 0
+1 0 1 0 1 0 1
+
+Answer:
+Fail
+Fail
+Fail
+Fail
+Pass
+Pass
+Pass
+Pass
+Fail
+Pass

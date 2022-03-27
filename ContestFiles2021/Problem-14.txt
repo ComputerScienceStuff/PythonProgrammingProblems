@@ -1,0 +1,71 @@
+14 - Grepish Or
+
+Input:
+The input consists of 3 parts.
+1) First part are lines of a data file with 3 fields: Car Color, Car Make and Car ID
+2) Second part is an asterisk (*) to show end of the data section
+3) Third part are lines of the data search criteria
+The input consists of a data file, follow by line with an "*", followed data to look up.
+
+Output:
+For each search criteria line, find all the lines that meet the specific criteria and print each Car ID number.
+The Car IDs for each search should be listed in numeric ascending order.
+Criteria to search for can be either for Color or Make.
+Criteria will have an OR condition (for either Color or Make).
+Criteria may return 0 or many hits. Print each matching Car ID number on a seperate line in top down order.
+Indicate the end of each search by printing a single * on a line.  
+If no result is found just print a single *.
+
+Write your answers in a file named 14-TeamName.txt, one answer per line.
+
+
+Example:
+Red, Ford, 12345
+Red, Tesla, 23456
+Blue, Dodge, 34567
+Blue, Ford, 45678
+Green, Ford, 56789
+*
+Green or Ford
+Ford or Green
+Blue or Ford
+Blue or Dodge
+Red or Tesla
+Red or Ford
+Ford or Blue
+Ford or Yellow
+
+Answer:
+12345
+45678
+56789
+*
+12345
+45678
+56789
+*
+12345
+34567
+45678
+56789
+*
+34567
+45678
+*
+12345
+23456
+*
+12345
+23456
+45678
+56789
+*
+12345
+34567
+45678
+56789
+*
+12345
+45678
+56789
+*

@@ -1,0 +1,30 @@
+18 - Convert time to interior angle
+
+The interior angle of a clock is the angle between the hour hand and the minute hand.
+On the clock face, at noon the interior angle is 0 degrees.  
+At 3:00, the hour hand points at the 3 and the minute hand at 12, the interior angle is 90 degrees.  
+At 6:00, the interior angle is 180 degrees .
+
+Input:
+Input is a time of day.  
+AM or PM is irrelevant.
+The input format is HH:MM:SS on a single line, between 12:00:00 and 11:59:59 inclusive.
+
+Output:
+Output is the interior angle between the minute hand and the hour hand.
+Output will be the interior angle of the input time rounded to the nearest degree.
+If the fractional portion is exactly one half, like 13.5, round it down to 13.
+Each angle for each input time will be printed on a single line.  
+
+Write your answers in a file named 18-TeamName.txt, one time per line.
+
+Example A:
+05:00:00
+01:00:00
+03:00:00
+
+Answer A:
+
+150 
+30
+90

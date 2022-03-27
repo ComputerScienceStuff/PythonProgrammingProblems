@@ -1,0 +1,41 @@
+20 - Caesar Cypher
+
+A Caesar cipher is a simple substitution cipher in which each letter of the input text string is substituted with a letter found by moving n places down the alphabet. 
+Spaces and punctuation should not be affected, and you should retain capitalization if you were to decipher the text. 
+
+For example, assume the input text is the following:
+abcd, xyz.
+If the shift value is 4, then the encrypted text would be the following:
+efgh, BCD
+
+Note the shifted characters "wrap around", so z, shifted by 4, would be D, the fourth letter in the capitalized alphabet if we concatenated uppercase and lowercase 
+letters into a single character array, like so:
+ABCD...XYZabcd...xyz
+
+Input:
+The input consists of the integer shift value, a colon, and then the string (the intervening colon is not included as part of the string to transform).
+
+Output:
+Shift the input text string by the integer shift value.
+Output one line for each input line with:
+1) The line number starting with 0
+2) A space seperator
+3) The result of the shifted text.
+
+Write your answers in a file named 20-TeamName.txt, one answer per line.
+
+Example:
+
+4:abcd, xyz.
+3:Hello, World!
+5:TGIF...!
+4:We hold these truths
+5:In a galaxy far, far away...
+
+Answers:
+
+0 efgh, BCD.
+1 Khoor, Zruog!
+2 YLNK...!
+3 ai lsph xliwi xvyxlw
+4 Ns f lfqfCD kfw, kfw fBfD...

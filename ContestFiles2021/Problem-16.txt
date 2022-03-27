@@ -1,0 +1,30 @@
+16 - Cell phone PIN validation
+
+Cell phones commonly use Personal Identity Numbers (PINs), which are strings of numerals 4 or 6 characters in length. 
+
+Input:
+A list of text words  which must be validated as possible cell phone PINs.
+
+Output:
+Determine if that text represents a valid PIN and write the result to the output file (true, it is a valid PIN format, false if not).
+Empty strings are not valid and return false. 
+Strings not of length 4 or 6 are invalid and return false.
+String which contain nonnumeric characters are invalid and return false.
+
+Write your answers in a file named 16-TeamName.txt, one answer per line.
+
+Example:
+
+1234
+54321
+90A2
+Hello
+887766
+
+Answers:
+
+0 true
+1 false
+2 false
+3 false
+4 true

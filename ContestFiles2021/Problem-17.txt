@@ -1,0 +1,63 @@
+17 - Convert Clock Angles to Time
+
+The interior angle of a clock is the angle between the hour hand and the minute hand.
+On the clock face, at noon the interior angle is 0 degrees.  
+At 3:00, the hour hand points at the 3 and the minute hand at 12, the interior angle is 90 degrees.  
+At 6:00, the interior angle is 180 degrees .
+Don't forget that the hour hand advances slightly as the minute hand moves around the face of the clock.
+The minute hand also advances slightly as the second hand moves.
+The interior angle would be the angle difference between the hour hand and the minute hand in degrees.
+Angle of Minute Hand = (MM  + ss/60) * 6 degrees (each minute is 1/60th of 360 degrees)
+Angle of Hour Hand = (hh +  (MM/60 + ss/3600)) * 30 degrees (each hour is 1/12 of 360 degrees)
+The 12 represents the 0 th hour for these calculations.
+
+Input:
+The input is an interior angle of the minute and hour hand in degrees.
+Input is an integer between 0 and 180 inclusive. 
+
+Output:
+The output is all the possible times from interior angle.  
+Don't worry about AM and PM.
+There are multiple possible times for each angle.  
+For instance, an input of 0 degrees will result in times of 12:00:00, 02:10:54, 09:49:05, etc.
+
+Output begins with input angle followed by a space and the word "Degrees".  
+	The judging software is case sensitive, just so you know.
+Next output each time in HH:MM:SS format, one per line.
+When the time for a particular angle occurs falls between seconds, omit the fractional portion of the second.  
+For instance, 10:54:32.727 should be printed as 10:54:32.
+The times should be sorted from the earliest time to the latest time. 
+We consider 12:00:00 as the earliest time and 11:59:59 as the latest time.
+Each time should be output on a single line.
+
+Write your answers in a file named 17-TeamName.txt, one time per line.
+
+
+Example A:
+150
+
+Answer A:
+
+150 Degrees
+12:27:16
+12:38:10
+01:32:43
+01:43:38
+02:38:10
+02:49:05
+03:43:38
+03:54:32
+04:49:05
+05:00:00
+05:54:32
+06:05:27
+07:00:00
+07:10:54
+08:05:27
+08:16:21
+09:10:54
+09:21:49
+10:16:21
+10:27:16
+11:21:49
+11:32:43

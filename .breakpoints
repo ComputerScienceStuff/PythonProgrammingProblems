@@ -1,0 +1,28 @@
+{
+  "files": {
+    "04-Snider.txt": [
+      {
+        "id": "7fe1e656-9309-40cb-8690-b68408341f90",
+        "line": 1,
+        "version": 15,
+        "index": 0
+      }
+    ],
+    "ContestFiles2021/Problem-06.txt": [
+      {
+        "id": "4329bfbc-6932-4009-8295-9e4e409b959c",
+        "line": 24,
+        "version": 1,
+        "index": 369
+      }
+    ],
+    "main.py": [
+      {
+        "id": "f13265ae-c562-48d2-9c5c-9f56b409329f",
+        "line": 1,
+        "version": 4560,
+        "index": 0
+      }
+    ]
+  }
+}
